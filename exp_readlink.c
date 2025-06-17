@@ -14,18 +14,18 @@
  */
 int main(void)
 {
-    char link_path[] = "/sys/class/i2c-dev/i2c-20/device/mux_device";
-    char target_path[256];
-    ssize_t len;
+	char link_path[] = "/sys/class/i2c-dev/i2c-20/device/mux_device";
+	char target_path[256];
+	ssize_t len;
 
-    len = readlink(link_path, target_path, sizeof(target_path) - 1);
-    if (len == -1)
-        printf("Fail to read link path !!\n");
-    else {
-        target_path[len] = '\0';
-        printf("link path is %s\n", target_path);
-    }
+	len = readlink(link_path, target_path, sizeof(target_path) - 1);
+	if (len == -1)
+		printf("Fail to read link path !!\n");
+	else {
+		target_path[len] = '\0';
+		printf("link path is %s\n", target_path);
+	}
 
-    return 0;
+	return 0;
 }
 

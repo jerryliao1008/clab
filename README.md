@@ -10,7 +10,14 @@ This repo contains simple experiments, tests, and validation code for various C 
 make
 ```
 
-All binaries will be built automatically based on existing .c files.
+- All `.c` files in the repository will be automatically compiled into corresponding binaries.
+- No need to modify `Makefile` when adding new experiments.
+- By default, `arm-linux-gnueabi-gcc` is used as the cross-compiler.
+- You can override the compiler when building:
+
+```bash
+make CC=gcc
+```
 
 ## Current experiments
 

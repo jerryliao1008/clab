@@ -14,6 +14,7 @@ All binaries will be built automatically based on existing .c files.
 
 ## Current experiments
 
+- `exp_and.c` - Bitwise AND operation test
 - `exp_calloc.c` - Memory allocation test (`calloc`)
 - `exp_enum.c` - Enum value assignment and auto-increment behavior
 - `exp_readlink.c` - Test POSIX `readlink()` behavior

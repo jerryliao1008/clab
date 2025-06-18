@@ -27,4 +27,5 @@ make CC=gcc
 - `exp_callback.c` - Function pointer callback test with log and error handlers
 - `exp_calloc.c` - Memory allocation test (`calloc`)
 - `exp_enum.c` - Enum value assignment and auto-increment behavior
+- `exp_packed.c` - Compare size, alignment, and layout of packed vs. unpacked structures, including nested struct scenarios.
 - `exp_readlink.c` - Test POSIX `readlink()` behavior

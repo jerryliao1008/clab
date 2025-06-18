@@ -29,3 +29,4 @@ make CC=gcc
 - `exp_enum.c` - Enum value assignment and auto-increment behavior
 - `exp_packed.c` - Compare size, alignment, and layout of packed vs. unpacked structures, including nested struct scenarios.
 - `exp_readlink.c` - Test POSIX `readlink()` behavior
+- `exp_sort.c` - Demonstrates insertion sort and bubble sort on uint8_t arrays with comparison output.

@@ -24,6 +24,7 @@ make CC=gcc
 - `exp_and.c` - Bitwise AND operation test
 - `exp_bitfield.c` - Bit-field syntax and memory layout test
 - `exp_bswap.c` - Byte swap operation test
+- `exp_callback.c` - Function pointer callback test with log and error handlers
 - `exp_calloc.c` - Memory allocation test (`calloc`)
 - `exp_enum.c` - Enum value assignment and auto-increment behavior
 - `exp_readlink.c` - Test POSIX `readlink()` behavior

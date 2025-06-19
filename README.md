@@ -30,3 +30,4 @@ make CC=gcc
 - `exp_packed.c` - Compare size, alignment, and layout of packed vs. unpacked structures, including nested struct scenarios.
 - `exp_readlink.c` - Test POSIX `readlink()` behavior
 - `exp_sort.c` - Demonstrates insertion sort and bubble sort on uint8_t arrays with comparison output.
+- `exp_static_struct.c` - Static struct array initialization and iteration example

@@ -1,6 +1,6 @@
-# clab
+# linux-clab
 
-C Lab — Personal C language experiment playground.
+Linux C Lab — Personal C language experiment playground.
 
 This repo contains simple experiments, tests, and validation code for various C language features, library functions, and system APIs.
 
